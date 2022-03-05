@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="What is the  largest forest in the world?"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="15dp"
+        android:background="@drawable/shape"/>
+
+    <TextView
+        android:id="@+id/flashcard_answer_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/option_two_textview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#c89900"
+        android:gravity="center"
+        android:text="Boreal Forest"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/option_one_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/flashcard_question_textview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginRight="10dp"
+        android:background="#c89900"
+        android:gravity="center"
+        android:text="Daintree Rainforest"
+
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/option_two_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/option_one_textview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#c89900"
+        android:gravity="center"
+        android:text="Amazon Rainforest"
+
+        android:textSize="40sp" />
+
+
+</RelativeLayout>
