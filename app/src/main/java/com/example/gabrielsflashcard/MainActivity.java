@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
 
             String string1 = data.getExtras().getString("QUESTION_KEY");
             String string2 = data.getExtras().getString("ANSWER_KEY");
-
             flashcardQuestion.setText(string1);
             correctAnswer.setText(string2);
         }
