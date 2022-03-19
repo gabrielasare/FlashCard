@@ -10,56 +10,41 @@
         android:id="@+id/flashcard_question_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape"
+        android:elevation="15dp"
+        android:gravity="center"
         android:padding="30dp"
         android:text="What is the  largest forest in the world?"
-        android:gravity="center"
-        android:textSize="40sp"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:elevation="15dp"
-        android:background="@drawable/shape"/>
+        android:textSize="40sp" />
+
 
     <TextView
         android:id="@+id/flashcard_answer_textview"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/option_two_textview"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="#c89900"
+        android:background="@drawable/shape"
+        android:elevation="15dp"
         android:gravity="center"
+        android:padding="30dp"
         android:text="Boreal Forest"
+        android:visibility="invisible"
         android:textSize="40sp" />
 
-    <TextView
-        android:id="@+id/option_one_textview"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/flashcard_question_textview"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginRight="10dp"
-        android:background="#c89900"
-        android:gravity="center"
-        android:text="Daintree Rainforest"
-
-        android:textSize="40sp" />
-
-    <TextView
-        android:id="@+id/option_two_textview"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/option_one_textview"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="10dp"
-        android:background="#c89900"
-        android:gravity="center"
-        android:text="Amazon Rainforest"
-
-        android:textSize="40sp" />
+    <ImageView
+        android:id="@+id/add_icon_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="23dp"
+        android:src="@drawable/icon_add" />
 
 
 </RelativeLayout>
