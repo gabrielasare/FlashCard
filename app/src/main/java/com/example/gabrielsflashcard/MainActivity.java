@@ -9,14 +9,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import java.util.List;
 import com.google.android.material.snackbar.Snackbar;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView flashcardQuestion;
-    private TextView correctAnswer;
+    TextView flashcardQuestion;
+    TextView correctAnswer;
     FlashcardDatabase flashcardDatabase;
     List<Flashcard> allFlashcards;
     int cardIndex = 0;
@@ -70,9 +71,11 @@ public class MainActivity extends AppCompatActivity {
         flashcardDatabase = new FlashcardDatabase(getApplicationContext());
         allFlashcards = flashcardDatabase.getAllCards();
 
-        Flashcard firstCard = allFlashcards.get(0);
-        flashcardQuestion.setText(firstCard.getQuestion());
-        correctAnswer.setText(firstCard.getAnswer());
+        if (allFlashcards != null && allFlashcards.size() > 0) {
+            Flashcard firstCard = allFlashcards.get(0);
+            flashcardQuestion.setText(firstCard.getQuestion());
+            correctAnswer.setText(firstCard.getAnswer());
+        }
 
         findViewById(R.id.flashcard_next_button).setOnClickListener(new View.OnClickListener() { // add button to main xml
             @Override
@@ -93,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-
+//                allFlashcards = flashcardDatabase.getAllCards();
                 Flashcard currentcard = allFlashcards.get(cardIndex);
                 flashcardQuestion.setText(currentcard.getQuestion());
                 correctAnswer.setText(currentcard.getAnswer());
