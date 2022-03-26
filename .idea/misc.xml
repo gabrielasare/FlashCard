@@ -7,9 +7,11 @@
         <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/drawable/ic_icon_download.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/drawable/icon_add.xml" value="0.25092592592592594" />
         <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/drawable/icon_close.xml" value="0.25092592592592594" />
+        <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/drawable/icon_download.xml" value="0.140625" />
+        <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/drawable/icon_next.xml" value="0.140625" />
         <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/layout/activity_add_card.xml" value="0.176" />
-        <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/gasar/AndroidStudioProjects/GabrielsFlashCard/app/src/main/res/layout/activity_main.xml" value="0.176" />
       </map>
     </option>
   </component>
