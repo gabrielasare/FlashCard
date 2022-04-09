@@ -6,13 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/flashcard_question_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-11dp"
         android:layout_marginRight="10dp"
+        android:layout_marginBottom="340dp"
         android:background="@drawable/shape"
         android:elevation="15dp"
         android:gravity="center"
@@ -20,21 +24,21 @@
         android:text="What is the  largest forest in the world?"
         android:textSize="40sp" />
 
-
     <TextView
         android:id="@+id/flashcard_answer_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="261dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/shape"
         android:elevation="15dp"
         android:gravity="center"
         android:padding="30dp"
+        android:background="@drawable/shape"
         android:text="Boreal Forest"
-        android:visibility="invisible"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:visibility="invisible" />
 
     <ImageView
         android:id="@+id/add_icon_imageView"
@@ -52,8 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="321dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="262dp"
         android:src="@drawable/icon_next" />
 
 
